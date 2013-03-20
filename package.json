@@ -8,7 +8,7 @@
   "license": "BSD",
   "devDependencies": {
     "jasmine-node": "*",
-    "nock": "*",
+    "nock": "*"
   },
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node --verbose --coffee spec/",
