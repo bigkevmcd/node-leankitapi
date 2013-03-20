@@ -1,0 +1,380 @@
+{
+    "ReplyCode": 200,
+    "ReplyText": "Board successfully retrieved.",
+    "ReplyData": [
+        {
+            "Id": 101000,
+            "Title": "Simple Board",
+            "Description": "Example of a Simple Value Stream",
+            "Version": 212,
+            "Active": false,
+            "OrganizationId": 1,
+            "OrganizationActivities": [
+                {
+                    "Id": 101505,
+                    "Name": "DEV - Development"
+                },
+                {
+                    "Id": 101506,
+                    "Name": "QA - Testing"
+                },
+                {
+                    "Id": 101507,
+                    "Name": "A&D - Analysis and Design"
+                },
+                {
+                    "Id": 101508,
+                    "Name": "BL - Backlog"
+                },
+                {
+                    "Id": 101509,
+                    "Name": "DEP - Deployment"
+                }
+            ],
+            "Lanes": [
+                {
+                    "Id": 101107,
+                    "Index": 1,
+                    "Active": true,
+                    "Title": "Ready",
+                    "CardLimit": 0,
+                    "ClassType": 0,
+                    "Type": 1,
+                    "ActivityId": null,
+                    "ActivityName": "",
+                    "Width": 1,
+                    "ParentLaneId": 101103,
+                    "Cards": [
+                        {
+                            "Id": 101614,
+                            "LaneId": 101107,
+                            "Title": "Sample 11",
+                            "Type": {
+                                "Id": 101306
+                            },
+                            "TypeId": 101306,
+                            "Priority": 1,
+                            "TypeName": "Defect",
+                            "TypeIconPath": "../../Content/Images/Icons/Library/help.png",
+                            "TypeColorHex": "#f69679",
+                            "Size": 0,
+                            "Active": false,
+                            "Color": "#f69679",
+                            "Version": 23,
+                            "AssignedUserId": 16013517,
+                            "AssignedUserName": "John Doe",
+                            "IsBlocked": false,
+                            "GravatarLink": "869c2a255884177643b3497d324055b3?s=25",
+                            "BlockReason": "",
+                            "SmallGravatarLink": "869c2a255884177643b3497d324055b3?s=17",
+                            "Index": 0,
+                            "DueDate": "",
+                            "ExternalSystemName": "",
+                            "ExternalSystemUrl": "",
+                            "ExternalCardID": "",
+                            "Tags": "",
+                            "ClassOfServiceId": 0,
+                            "ClassOfServiceTitle": "",
+                            "ClassOfServiceIconPath": "",
+                            "ClassOfServiceColorHex": "",
+                            "DueDateText": "",
+                            "AssignedUsers": [
+                                        {
+                                           "GravatarLink": "869c2a255884177643b3497d324055b3?s=25",
+                                           "SmallGravatarLink": "869c2a255884177643b3497d324055b3?s=17",
+                                           "AssignedUserName": "John Doe",
+                                           "AssignedUserId": 16013517
+                                          },
+                                          {
+                                           "GravatarLink": "9c5383fff6727696e44cd9c07f1e24f4?s=25",
+                                           "SmallGravatarLink": "9c5383fff6727696e44cd9c07f1e24f4?s=17",
+                                           "AssignedUserName": "Jane Doe",
+                                           "AssignedUserId": 16013516
+                                          }
+                              ]
+                        },
+                        {
+                            "Id": 101622,
+                            "LaneId": 101107,
+                            "Title": "Sample 19",
+                            "Type": {
+                                "Id": 101304
+                            },
+                            "TypeId": 101304,
+                            "Priority": 1,
+                            "TypeName": "Feature",
+                            "TypeIconPath": "../../Content/Images/Icons/Library/help.png",
+                            "TypeColorHex": "#8cc63f",
+                            "Size": 0,
+                            "Active": false,
+                            "Color": "#8cc63f",
+                            "Version": 12,
+                            "AssignedUserId": 0,
+                            "AssignedUserName": "",
+                            "IsBlocked": false,
+                            "GravatarLink": "",
+                            "BlockReason": "",
+                            "SmallGravatarLink": "",
+                            "Index": 1,
+                            "DueDate": "",
+                            "ExternalSystemName": "",
+                            "ExternalSystemUrl": "",
+                            "ExternalCardID": "",
+                            "Tags": "",
+                            "ClassOfServiceId": 0,
+                            "ClassOfServiceTitle": "",
+                            "ClassOfServiceIconPath": "",
+                            "ClassOfServiceColorHex": "",
+                            "DueDateText": "",
+                            "AssignedUsers": []
+                      }
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                     "LaneState": "child"
+                 },
+                {
+                    "Id": 101108,
+                    "Index": 2,
+                    "Active": true,
+                    "Title": "In Process",
+                    "CardLimit": 2,
+                    "ClassType": 0,
+                    "Type": 2,
+                    "ActivityId": null,
+                    "ActivityName": "",
+                    "Width": 1,
+                    "ParentLaneId": 101103,
+                    "Cards": [
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                     "LaneState": "child"
+                },
+                {
+                    "Id": 101104,
+                    "Index": 3,
+                    "Active": false,
+                    "Title": "Development",
+                    "CardLimit": 6,
+                    "ClassType": 0,
+                    "Type": 99,
+                    "ActivityId": 101505,
+                    "ActivityName": "DEV - Development",
+                    "Width": 2,
+                    "ParentLaneId": 0,
+                    "Cards": [
+
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                },
+                {
+                    "Id": 101105,
+                    "Index": 4,
+                    "Active": false,
+                    "Title": "Testing",
+                    "CardLimit": 6,
+                    "ClassType": 0,
+                    "Type": 99,
+                    "ActivityId": 101506,
+                    "ActivityName": "QA - Testing",
+                    "Width": 2,
+                    "ParentLaneId": 0,
+                    "Cards": [
+
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                },
+                {
+                    "Id": 101113,
+                    "Index": 5,
+                    "Active": true,
+                    "Title": "Deployment",
+                    "CardLimit": 0,
+                    "ClassType": 0,
+                    "Type": 99,
+                    "ActivityId": 101509,
+                    "ActivityName": "DEP - Deployment",
+                    "Width": 2,
+                    "ParentLaneId": 0,
+                    "Cards": [
+
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                },
+                {
+                    "Id": 101106,
+                    "Index": 6,
+                    "Active": true,
+                    "Title": "Done",
+                    "CardLimit": 0,
+                    "ClassType": 0,
+                    "Type": 3,
+                    "ActivityId": null,
+                    "ActivityName": "",
+                    "Width": 1,
+                    "ParentLaneId": 0,
+                    "Cards": [
+                        
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                }
+            ],
+            "BoardUsers": [
+                {
+                    "Id": 1,
+                    "FullName": "Demo User",
+                    "UserName": "demouser@leankitkanban.com",
+                    "Role": 0,
+                    "WIP": 0,
+                    "Enabled": true,
+                    "IsAccountOwner": true,
+                    "IsDeleted": false,
+                    "GravatarFeed": "",
+                    "EmailAddress": "demouser@leankitkanban.com",
+                    "DateFormat": "",
+                    "Settings": null
+                }
+            ],
+            "SwimLanes": [
+
+            ],
+            "Backlog": [
+                {
+                    "Id": 101101,
+                    "Index": 1,
+                    "Active": false,
+                    "Title": "Backlog",
+                    "CardLimit": 0,
+                    "ClassType": 1,
+                    "Type": 1,
+                    "ActivityId": null,
+                    "ActivityName": "",
+                    "Width": 7,
+                    "ParentLaneId": 0,
+                    "Cards": [
+                       
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                }
+            ],
+            "Archive": [
+                {
+                    "Id": 101102,
+                    "Index": 0,
+                    "Active": false,
+                    "Title": "Archive",
+                    "CardLimit": 0,
+                    "ClassType": 2,
+                    "Type": 1,
+                    "ActivityId": null,
+                    "ActivityName": "",
+                    "Width": 7,
+                    "ParentLaneId": 0,
+                    "Cards": [
+
+                    ],
+                    "Orientation": 0,
+                    "ChildLaneIds": [],
+                    "SiblingLaneIds": [16465110],
+                    "LaneState": "child"
+                }
+            ],
+            "ClassesOfService": [
+                {
+                    "Id": 101407,
+                    "BoardId": 101000,
+                    "Title": "Date Dependent",
+                    "Policy": "",
+                    "IconPath": "../../Content/Images/Icons/Library/calculator.png",
+                    "ColorHex": "#FFFFFF",
+                    "UseColor": false
+                },
+                {
+                    "Id": 101405,
+                    "BoardId": 101000,
+                    "Title": "Expedite",
+                    "Policy": "",
+                    "IconPath": "../../Content/Images/Icons/Library/arrow_right.png",
+                    "ColorHex": "#FFFFFF",
+                    "UseColor": false
+                },
+                {
+                    "Id": 101406,
+                    "BoardId": 101000,
+                    "Title": "Regulatory",
+                    "Policy": "",
+                    "IconPath": "../../Content/Images/Icons/Library/check.png",
+                    "ColorHex": "#FFFFFF",
+                    "UseColor": false
+                },
+                {
+                    "Id": 101404,
+                    "BoardId": 101000,
+                    "Title": "Standard",
+                    "Policy": "",
+                    "IconPath": "../../Content/Images/Icons/Library/blank.gif",
+                    "ColorHex": "#FFFFFF",
+                    "UseColor": false
+                }
+            ],
+            "CurrentUserRole": 4,
+            "CardTypes": [
+                {
+                    "Id": 101306,
+                    "Name": "Defect",
+                    "ColorHex": "#f69679",
+                    "IsDefault": false,
+                    "IconPath": "../../Content/Images/Icons/Library/help.png"
+                },
+                {
+                    "Id": 101304,
+                    "Name": "Feature",
+                    "ColorHex": "#8cc63f",
+                    "IsDefault": false,
+                    "IconPath": "../../Content/Images/Icons/Library/help.png"
+                },
+                {
+                    "Id": 101305,
+                    "Name": "Improvement",
+                    "ColorHex": "#d3e0e4",
+                    "IsDefault": false,
+                    "IconPath": "../../Content/Images/Icons/Library/help.png"
+                },
+                {
+                    "Id": 101303,
+                    "Name": "Task",
+                    "ColorHex": "#f5f2bc",
+                    "IsDefault": false,
+                    "IconPath": "../../Content/Images/Icons/Library/help.png"
+                }
+            ],
+            "ClassOfServiceEnabled": true,
+            "CardColorField": "CardType",
+            "IsCardIdEnabled": true,
+            "IsHeaderEnabled": false,
+            "IsPrefixEnabled": false,
+            "IsPrefixIncludedInHyperlink": false,
+            "Prefix": "",
+            "IsHyperlinkEnabled": false,
+            "Format": ""
+        }
+    ]
+}

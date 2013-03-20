@@ -1,0 +1,21 @@
+{
+  "name": "leankitapi",
+  "version": "0.0.1",
+  "description": "A Node.js API for the Leankit Kanban API.",
+  "main": "index.js",
+  "repository": "",
+  "author": "Kevin McDermott <kevin@bigkevmcd.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "jasmine-node": "*",
+    "nock": "*",
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --verbose --coffee spec/",
+    "watch": "./node_modules/.bin/jasmine-node --coffee --autotest spec/"
+  },
+  "dependencies": {
+    "request": "*",
+    "coffee-script": "*"
+  }
+}
